@@ -102,6 +102,10 @@
 	-webkit-transform: none !important;
 }
 
+.ls-bg-img {
+	width: 100%;
+}
+
 .ls-yourlogo {
 	position: absolute;
 	z-index: 99;

@@ -298,7 +298,7 @@ body {
 a.button_blue{
 	display:inline-block;
 	font-weight:700;
-	font-size:12px;
+	font-size:14px;
 	text-transform:capitalize;
 	padding:6px 25px;
 	margin:10px 0 20px 0;
@@ -672,7 +672,7 @@ a#logo {
 #home_wrapper{
 	width:100%;
 	z-index:1;
-	background: url("../images/wooly-bros-bg.jpg");
+	background: url("../images/wooly-crew.jpg");
 	background-position: center top;
     background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -681,7 +681,7 @@ a#logo {
 
 .home_box{
 	width:100%;
-	max-width:960px;
+	max-width:900px;
 	margin:0 auto;
 	padding:160px 0 160px 0;
 	text-align:center;
@@ -695,7 +695,7 @@ h2.home_title{
 	text-align: center;
 	color: #fff;
 	margin-bottom: 20px;
-	margin-top: 80px;
+	margin-top: 120px;
 	clear: both;
 	display: block;
 }
@@ -705,7 +705,7 @@ h3.home_subtitle{
 	font-size: 26px;
 	line-height: 32px;
 	color: #fff;
-	margin-bottom: 35px;
+	margin-bottom: 15px;
 	clear: both;
 	display: block;
 }
@@ -1066,7 +1066,7 @@ p.testimonials_text {
 }
 
 .fun_fact_wrapper:hover span, .fun_fact_wrapper:hover .fun_fact_icon{
-	color:#44D0F4;
+	color:#1E3545;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
@@ -1791,7 +1791,7 @@ ul.social_icons li a i:hover {
 	}
 		
 	a.button_blue, a.button_white{
-		font-size:10px;
+		font-size:14px;
 		padding:7px 14px;
 		margin:0 0 20px 0;
 	}

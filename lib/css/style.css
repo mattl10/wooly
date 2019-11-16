@@ -221,8 +221,8 @@ p, a, ul, ol, dl, table, fieldset, blockquote {
 
 .row .twelvecol {
 	width: 100%;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	float: left;
 }
 
@@ -1764,6 +1764,8 @@ ul.social_icons li a i:hover {
 		margin-right: 0px;
 		padding-left: 0px;
 		padding-right: 0px;
+		align-content: center;
+		text-align: center;
 	}
 	
 	#header_wrapper {

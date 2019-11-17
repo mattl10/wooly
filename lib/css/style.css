@@ -1672,7 +1672,7 @@ p.contact_success_box{
     height: 115px;
     position: absolute;
     background-color: #44d0f4;
-    background-image: url("/images/wooly-partner-logos.png");
+    background-image: url("../images/wooly-partner-logos.png");
 	position: relative;
 }
 

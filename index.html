@@ -708,16 +708,6 @@
 		})(jQuery);
     </script>
 	<!-- end menu scrollTo script-->
-     
-	<script type="text/javascript">
-	 $(function(){
-        var x = 0;
-        setInterval(function(){
-            x-=1;
-            $('.mlogoroll').css('background-position', x + 'px 0');
-        }, 20);
-    })
-	</script>
 		
     <!-- begin menu color script-->
 <script src="lib/js/jquery.nav.js"></script>
@@ -751,7 +741,17 @@
 	});
 	</script>
     <!--end shrink header script -->
-    
+		
+	<script type="text/javascript">
+ 	$(function mlogoscroll(){
+        var x = 0;
+        setInterval(function(){
+            x-=1;
+            $('.mlogoroll').css('background-position', x + 'px 0');
+        }, 20);
+    })
+	</script>
+		
     <!-- begin owl.carousel script-->
 <script src="lib/js/owl.carousel.js"></script>
 <script>

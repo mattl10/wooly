@@ -54,31 +54,12 @@
             
         </section>
         <!--end home_wrapper -->
-		
-		<!--begin section_wrapper -->
-            <div class="section_wrapper blue_bg">
-                
-                <!--begin section_box -->
-                <div class="section_box align_center">
 
-                        <ul class="partners up_fade">
-                            <li><img src="lib/images/nixon-logo.png" width="150" alt="Nixon"></li>
-                            <li><img src="lib/images/purple-logo.png" width="150" alt="Purple"></li>
-                            <li><img src="lib/images/arcteryx.png" width="150" alt="Arc'teryx"></li>
-                            <li><img src="lib/images/hydroflask-logo.png" width="150" alt="Hydro Flask"></li>
-                            <li><img src="lib/images/1800-contacts-logo.png" width="150" alt="1800Contacts"></li>
-                            <li><img src="lib/images/nixon-logo.png" width="150" alt="Nixon"></li>
-                            <li><img src="lib/images/purple-logo.png" width="150" alt="Purple"></li>
-                            <li><img src="lib/images/arcteryx.png" width="150" alt="Arc'teryx"></li>
-                            <li><img src="lib/images/hydroflask-logo.png" width="150" alt="Hydro Flask"></li>
-                            <li><img src="lib/images/1800-contacts-logo.png" width="150" alt="1800Contacts"></li>
-                        </ul>
-                       
-                </div>
-                <!--end section_box -->
                 
-            </div>
-            <!--end section_wrapper -->
+        <!--begin mlogoroll -->
+		<div class="mlogoroll"></div>
+        <!--end mlogoroll -->
+
 	
             <!--begin section_wrapper -->
             <div class="section_wrapper" style="background-color: #f6f6f7;">
@@ -727,9 +708,20 @@
 		})(jQuery);
     </script>
 	<!-- end menu scrollTo script-->
-    
+     
+	<script type="text/javascript">
+	 $(function(){
+        var x = 0;
+        setInterval(function(){
+            x-=1;
+            $('.mlogoroll').css('background-position', x + 'px 0');
+        }, 20);
+    })
+	</script>
+		
     <!-- begin menu color script-->
 <script src="lib/js/jquery.nav.js"></script>
+
 <script>
 	$(document).ready(function() {
 		$('#nav').onePageNav({

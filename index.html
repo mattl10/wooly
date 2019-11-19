@@ -15,12 +15,10 @@
 
     <!-- CSS concatenated and minified via ant build script-->
     <link rel="stylesheet" href="lib/css/style.css">
-    <link rel="stylesheet" href="lib/css/fonts.css">
     <link rel="stylesheet" href="lib/css/animate.css">
     <link rel="stylesheet" href="lib/css/layerslider.css">
-    <link rel="stylesheet" href="lib/css/owl.carousel.css">
-    <link rel="stylesheet" href="lib/css/owl.theme.css">
-    <link rel="stylesheet" href="lib/js/prettyPhoto/css/prettyPhoto.css">
+    <link rel="stylesheet" href="lib/css/owl-carousel.css">
+    <link rel="stylesheet" href="lib/css/owl-theme.css">
     
 	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,700,800&display=swap" rel="stylesheet">
@@ -668,61 +666,7 @@
            
     </div>
     <!--! end of #container -->
-    
-    <!-- scripts concatenated and minified via ant build script-->
-<script src="lib/js/modernizr-2.6.1.min.js"></script>
-<script src="lib/js/plugins.js"></script>
-<script src="lib/js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
-<script src="lib/js/retina.js"></script>
-<script src="lib/js/script.js"></script>
-<script src="lib/js/jquery.inview.js"></script>
-    
-    <!-- begin jquery.sticky script-->
-<script type="text/javascript" src="lib/js/jquery.sticky.js"></script>
-<script>
-        $(window).load(function(){
-          $("#header_wrapper").sticky({ topSpacing: 0 });
-        });
-    </script>
-    <!-- end jquery.sticky script-->
-  
-    <!-- begin menu scrollTo script-->
-<script src="lib/js/jquery.scrollTo-min.js"></script>
-<script type="text/javascript">
-		(function($){
-			$(document).ready(function() {	
-			/* This code is executed after the DOM has been completely loaded */
-				
-				$("#nav li a, a.scrool").click(function(e){
 		
-					var full_url = this.href;
-					var parts = full_url.split("#");
-					var trgt = parts[1];
-					var target_offset = $("#"+trgt).offset();
-					var target_top = target_offset.top;
-					
-					$('html,body').animate({scrollTop:target_top -69}, 1000);
-						return false;
-					
-				});
-						
-			});
-		})(jQuery);
-    </script>
-	<!-- end menu scrollTo script-->
-		
-    <!-- begin menu color script-->
-<script src="lib/js/jquery.nav.js"></script>
-
-<script>
-	$(document).ready(function() {
-		$('#nav').onePageNav({
-		filter: ':not(.external)',
-		scrollThreshold: 0.25
-		});
-	});
-	</script>
-    <!-- end menu color script-->
     
     <!--begin shrink header script -->
 <script>
@@ -764,32 +708,6 @@
     </script>
     <!-- end owl.carousel script-->
     
-    <!-- begin slider script-->
-<script src="lib/js/responsiveslides.min.js"></script>
-<script>
-		// You can also use "$(window).load(function() {"
-		$(function () {
-	
-		  // Slideshow 4
-		  $("#slider4, #slider3").responsiveSlides({
-			auto: true,
-			pager: true,
-			nav: true,
-			pause: true,
-			speed: 500,
-			timeout: 5000,
-			namespace: "callbacks",
-			before: function () {
-			  $('.events').append("<li>before event fired.</li>");
-			},
-			after: function () {
-			  $('.events').append("<li>after event fired.</li>");
-			}
-		  });
-	
-		});
-  	</script>
-    <!-- end slider script-->
     
     <!-- begin layerslider script-->
 <script src="lib/js/greensock.js"></script>
